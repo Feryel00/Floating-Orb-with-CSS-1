@@ -1,0 +1,33 @@
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  min-height: 100vh; 
+  background: linear-gradient(to right,#b8c3f9,#d9d9d9);}
+  
+.orb{
+  animation: spin 2s linear infinite;
+  width: 250px;
+  height:250px;
+  margin:auto;
+  border-radius: 50%;
+  position:relative;
+  box-shadow: inset 0 0 50px #fff,
+  inset 40px 0 70px #025c1e,
+  inset -30px 0 70px blue,
+  inset 30px  0 300px #025c1e,
+  inset -30px 0 300px blue,
+  0 0 50px #fff,
+  -20px 0 60px #025c1e,
+  20px 0 60px blue;
+}
+
+@keyframes spin{
+  0%{ top:20px}
+  25%{top:22px}
+  50%{top:30px}
+  75%{top:27px}
+  100%{transform: rotate(360deg);
+       top:20px}
+}

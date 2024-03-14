@@ -14,3 +14,5 @@ CSS (Cascading Style Sheets) for styling and animations.
 Objective: This mini-project serves as an introduction to CSS animations, demonstrating how simple animations can be created to enhance visual appeal on web pages.
 
 @Feryel00 ;)
+
+![Uploading image.png…]()

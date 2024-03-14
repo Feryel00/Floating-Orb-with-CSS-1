@@ -15,4 +15,4 @@ Objective: This mini-project serves as an introduction to CSS animations, demons
 
 @Feryel00 ;)
 
-![Uploading image.png…]()
+
